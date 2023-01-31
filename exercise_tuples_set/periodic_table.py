@@ -1,0 +1,1 @@
+print(*{el for el in input().split() for _ in range(int(input()))}, sep="\n")

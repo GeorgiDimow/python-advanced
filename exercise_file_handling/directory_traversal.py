@@ -13,7 +13,7 @@ def save_extensions(dir_name, first_level=False):
 
             extensions[extension].append(file_name)
 
-        elif os.path.isdir(file):
+        elif os.path.isdir(file) and not first_level:
             save_extensions(os.path.join(dir_name, file_name), first_level=True)
 
 

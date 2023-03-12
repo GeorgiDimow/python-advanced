@@ -1,6 +1,5 @@
 from authentication import render_entry
-from canvans import root
-
+from canvas import root
 
 
 if __name__ == "__main__":

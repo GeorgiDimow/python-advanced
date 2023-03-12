@@ -2,8 +2,9 @@ from json import loads, dump
 from tkinter import Button, Entry
 
 from buying_page import display_products
-from canvans import root, frame
+from canvas import root, frame
 from helpers import clean_screen
+from menu import menu_page
 
 
 def get_users_data():
@@ -20,7 +21,8 @@ def render_entry():
     register_btn = Button(
         root,
         text="Register",
-        bg="green",
+        font=("Courier New", 10),
+        bg="#28A737",
         fg="white",
         borderwidth=0,
         width=20,
@@ -31,7 +33,8 @@ def render_entry():
     login_btn = Button(
         root,
         text="Login",
-        bg="blue",
+        font=("Courier New", 10),
+        bg="#009FE3",
         fg="white",
         borderwidth=0,
         width=20,
@@ -46,10 +49,10 @@ def render_entry():
 def register():
     clean_screen()
 
-    frame.create_text(100, 50, text="First name:")
-    frame.create_text(100, 100, text="Last name:")
-    frame.create_text(100, 150, text="Username:")
-    frame.create_text(100, 200, text="Password:")
+    frame.create_text(90, 50, text="First name:", font=("Courier New", 10))
+    frame.create_text(90, 100, text="Last name:", font=("Courier New", 10))
+    frame.create_text(90, 150, text="Username:", font=("Courier New", 10))
+    frame.create_text(90, 200, text="Password:", font=("Courier New", 10))
 
     frame.create_window(200, 50, window=first_name_box)
     frame.create_window(200, 100, window=last_name_box)
@@ -59,10 +62,11 @@ def register():
     registration_btn = Button(
         root,
         text="Register",
-        bg="green",
+        font=("Courier New", 10),
+        bg="#28A737",
         fg="white",
         borderwidth=0,
-        width=10,
+        width=20,
         height=3,
         command=registration,
     )
@@ -73,8 +77,8 @@ def register():
 def login():
     clean_screen()
 
-    frame.create_text(100, 50, text="Username:")
-    frame.create_text(100, 100, text="Password:")
+    frame.create_text(100, 50, text="Username:", font=("Courier New", 10))
+    frame.create_text(100, 100, text="Password:", font=("Courier New", 10))
 
     frame.create_window(200, 50, window=username_box)
     frame.create_window(200, 100, window=password_box)
@@ -82,7 +86,8 @@ def login():
     login_btn = Button(
         root,
         text="Login",
-        bg="blue",
+        font=("Courier New", 10),
+        bg="#009FE3",
         fg="white",
         borderwidth=0,
         width=20,
@@ -105,7 +110,7 @@ def registration():
         with open("db/users_information.txt", 'a') as users_file:
             dump(info_dict, users_file)
             users_file.writelines("\n")
-            display_products()
+            menu_page()
 
 
 def check_registration(info):
@@ -115,6 +120,7 @@ def check_registration(info):
                 350,
                 350,
                 text="We are missing some information",
+                font=("Courier New", 9),
                 fill="red",
                 tag="error"
             )
@@ -132,7 +138,8 @@ def check_registration(info):
                 350,
                 text="User with this username exists!",
                 fill="red",
-                tag="error"
+                tag="error",
+                font=("Courier New", 9),
             )
 
             return False
@@ -144,9 +151,9 @@ def check_registration(info):
 
 def logging():
     if check_logging():
-        display_products()
+        menu_page()
     else:
-        frame.create_text(160, 200, text="Invalid username or password!", fill="red")
+        frame.create_text(160, 200, text="Invalid username or password!", fill="red", font=("Courier New", 9),)
 
 
 def check_logging():

@@ -1,1 +1,1 @@
-{"white t-shirt": {"quantity": 0, "image": "images/white-t-shirt.png"}, "blue t-shirt": {"quantity": 0, "image": "images/blue-t-shirt.png"}, "air force 1 shoes": {"quantity": 0, "image": "images/air-force-1-low-retro-shoes.png"}}
+{"white t-shirt": {"quantity": {"S": 1, "M": 0, "L": 0}, "image": "images/white-t-shirt.png"}, "blue t-shirt": {"quantity": {"S": 4, "M": 4, "L": 4}, "image": "images/blue-t-shirt.png"}, "air force 1 shoes": {"quantity": {"S": 3, "M": 4, "L": 3}, "image": "images/air-force-1-low-retro-shoes.png"}}

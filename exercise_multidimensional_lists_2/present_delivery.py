@@ -53,7 +53,7 @@ while command != "Christmas morning":
 
     house = neighborhood[santa_pos[0]][santa_pos[1]]
 
-    if house == 'V':  
+    if house == 'V':
         nice_kids_visited += 1
         presents -= 1
     elif house == 'C':

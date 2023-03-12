@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="536ef48c-2ff2-4951-9fac-9c0006e26d55" name="Changes" comment="latest work">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise_aunctions_advanced/age_assignment.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise_aunctions_advanced/concatenate.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise_aunctions_advanced/even_or_odd.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise_aunctions_advanced/fill_the_box.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise_aunctions_advanced/function_executor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise_aunctions_advanced/grocery.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise_aunctions_advanced/keyword_arguments_length.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise_aunctions_advanced/negative_vs_positive.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise_aunctions_advanced/numbers_filter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise_aunctions_advanced/recursion_palindrome.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +38,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "F:/python_advanced/exercise_static_class_methods"
+    "last_opened_file_path": "/home/gosho/PycharmProjects/softuni/python-advanced",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="RecentsManager">

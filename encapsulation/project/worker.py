@@ -1,8 +1,8 @@
 class Worker:
-    def __init__(self, name: str, age: int, salary):
+    def __init__(self, name: str, age: int, salary: int):
         self.name = name
         self.age = age
-        self.salar = salary
+        self.salary = salary
 
     def __repr__(self):
-        return f
+        return f"Name: {self.name}, Age: {self.age}, Salary: {self.salary}"

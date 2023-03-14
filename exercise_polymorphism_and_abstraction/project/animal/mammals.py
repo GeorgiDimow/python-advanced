@@ -4,6 +4,10 @@ from project.food import Meat, Vegetable, Fruit
 
 class Mouse(Mammal):
     @property
+    def gained_weight(self):
+        return 0.10
+
+    @property
     def food_that_eats(self):
         return [Fruit, Vegetable]
 
@@ -13,6 +17,10 @@ class Mouse(Mammal):
 
 
 class Dog(Mammal):
+    @property
+    def gained_weight(self):
+        return 0.40
+
     @property
     def food_that_eats(self):
         return [Meat]
@@ -24,6 +32,10 @@ class Dog(Mammal):
 
 class Cat(Mammal):
     @property
+    def gained_weight(self):
+        return 0.30
+
+    @property
     def food_that_eats(self):
         return [Meat, Vegetable]
 
@@ -33,6 +45,10 @@ class Cat(Mammal):
 
 
 class Tiger(Mammal):
+    @property
+    def gained_weight(self):
+        return 1.00
+
     @property
     def food_that_eats(self):
         return [Meat]

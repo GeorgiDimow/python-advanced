@@ -26,4 +26,4 @@ class F1SeasonApp:
             return f"Red Bull: {self.red_bull_team.calculate_revenue_after_race(red_bull_pos)}. " \
                    f"Mercedes: {self.mercedes_team.calculate_revenue_after_race(mercedes_pos)}. " \
                    f"{self.team_names[0] if red_bull_pos < mercedes_pos else self.team_names[1]} is ahead at the " \
-                   f"{race_name} race."
+                   f"{race_name} race.

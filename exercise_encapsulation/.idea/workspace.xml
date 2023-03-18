@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="ChangeListManager">
     <list default="true" id="65914c6f-4dc4-46f3-abc2-b9084aa6e762" name="Changes" comment="" />
+=======
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="58dbf7c2-29b4-4f23-8149-24c655cb88ed" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/project/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/exercise_encapsulation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/exercise_encapsulation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/beverage/beverage.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/beverage/beverage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/beverage/coffee.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/beverage/coffee.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/beverage/cold_beverage.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/beverage/cold_beverage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/beverage/hot_beverage.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/beverage/hot_beverage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/beverage/tea.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/beverage/tea.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/food/cake.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/food/cake.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/food/dessert.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/food/dessert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/food/food.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/food/food.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/food/main_dish.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/food/main_dish.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/food/salmon.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/food/salmon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/food/soup.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/food/soup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/food/starter.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/food/starter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise_polymorphism_and_abstraction/formula1_manager/f1_season_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise_polymorphism_and_abstraction/formula1_manager/f1_season_app.py" afterDir="false" />
+    </list>
+>>>>>>> origin/main
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,8 +48,12 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectId" id="2MxaOr1o0kqTP9TztQSnRnGOJTh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+=======
+  <component name="ProjectId" id="2N5Dxp3ZvDhE7SRNY1AssfUbhN2" />
+>>>>>>> origin/main
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,6 +61,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
+<<<<<<< HEAD
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "F:/python_advanced"
   }
@@ -41,6 +74,14 @@
   <component name="RunManager" selected="Python tests.Python tests in test.py">
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="encapsulation" />
+=======
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="exercise_encapsulation" />
+>>>>>>> origin/main
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -51,7 +92,11 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="F:\python_advanced\encapsulation\wild_cat_zoo\test.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/restaurant/test.py" />
+>>>>>>> origin/main
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -60,6 +105,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="zoo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="encapsulation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,6 +175,10 @@
         <item itemvalue="Python tests.Python tests for wild_cat_zoo.test.Tests.test_worker_status" />
         <item itemvalue="Python tests.Python tests for wild_cat_zoo.test.Tests.test_zoo_fire_worker_success" />
         <item itemvalue="Python.zoo" />
+=======
+    <recent_temporary>
+      <list>
+>>>>>>> origin/main
         <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
@@ -136,6 +186,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="65914c6f-4dc4-46f3-abc2-b9084aa6e762" name="Changes" comment="" />
       <created>1678711657897</created>
       <option name="number" value="Default" />
@@ -178,4 +229,14 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
+=======
+      <changelist id="58dbf7c2-29b4-4f23-8149-24c655cb88ed" name="Changes" comment="" />
+      <created>1678945298389</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678945298389</updated>
+    </task>
+    <servers />
+  </component>
+>>>>>>> origin/main
 </project>

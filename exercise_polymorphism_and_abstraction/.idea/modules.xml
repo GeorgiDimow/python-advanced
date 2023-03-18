@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/exercise_polymorphism_and_abstraction.iml" filepath="$PROJECT_DIR$/.idea/exercise_polymorphism_and_abstraction.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/../exercise_polymorphism_and_abstraction/.idea/exercise_polymorphism_and_abstraction.iml" filepath="$PROJECT_DIR$/../exercise_polymorphism_and_abstraction/.idea/exercise_polymorphism_and_abstraction.iml" />
+>>>>>>> origin/main
     </modules>
   </component>
 </project>

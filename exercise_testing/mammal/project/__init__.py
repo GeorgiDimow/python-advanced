@@ -1,0 +1,2 @@
+def vehicle():
+    return None

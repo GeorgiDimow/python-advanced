@@ -81,15 +81,15 @@ class ChristmasPastryShopApp:
         booth = next(filter(lambda b: b.booth_number == booth_number, self.booths))
 
         bill = booth.price_for_reservation + sum(d.price for d in booth.delicacy_orders)
-        self.income += bill
 
         booth.price_for_reservation = 0
         booth.is_reserved = False
         booth.delicacy_orders.clear()
+
+        self.income += bill
 
         return f"Booth {booth_number}:\n" \
                f"Bill: {bill:.2f}lv."
 
     def get_income(self):
         return f"Income: {self.income:.2f}lv."
-

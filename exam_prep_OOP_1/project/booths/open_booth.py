@@ -2,8 +2,11 @@ from project.booths.booth import Booth
 
 
 class OpenBooth(Booth):
-    PRICE_PER_PERSON = 2.50
+
+    @property
+    def get_price_per_person(self):
+        return 2.50
 
     def reserve(self, number_of_people: int):
-        self.price_for_reservation = number_of_people * self.PRICE_PER_PERSON
+        self.price_for_reservation = number_of_people * self.get_price_per_person
         self.is_reserved = True

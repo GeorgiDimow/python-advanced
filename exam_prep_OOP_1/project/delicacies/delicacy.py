@@ -3,9 +3,9 @@ from abc import ABC, abstractmethod
 
 class Delicacy(ABC):
     def __init__(self, name: str, portion: int, price: float):
-        self.__name = name
+        self.name = name
         self.portion = portion
-        self.__price = price
+        self.price = price
 
     @property
     def name(self):
@@ -15,8 +15,8 @@ class Delicacy(ABC):
     def name(self, value):
         if value.strip() == '':
             raise ValueError("Name cannot be null or whitespace!")
-        else:
-            self.__name = value
+
+        self.__name = value
 
     @property
     def price(self):
